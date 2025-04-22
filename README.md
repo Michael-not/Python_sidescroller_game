@@ -1,2 +1,2 @@
 # Jet-Dragon
-# This game will not work because I were not able to add all images in Github
+# You need to add music called "music" mp3 format to a "music" folder
