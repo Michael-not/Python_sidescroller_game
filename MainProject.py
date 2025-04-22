@@ -7,8 +7,8 @@ import random
 
 pygame.init()
 
-pygame.mixer.music.load("music.wav")
-deadmusic = pygame.mixer.Sound("dead.wav")
+pygame.mixer.music.load("music/music.wav")
+deadmusic = pygame.mixer.Sound("music/dead.wav")
 
 
 W = 1480
