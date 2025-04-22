@@ -7,7 +7,7 @@ import random
 
 pygame.init()
 
-pygame.mixer.music.load("music/music.wav")
+pygame.mixer.music.load("music/music.mp3")
 deadmusic = pygame.mixer.Sound("music/dead.wav")
 
 
