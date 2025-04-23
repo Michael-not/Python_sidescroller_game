@@ -48,7 +48,7 @@ class player(object):
         else:
             win.blit(self.run, (self.x,self.y))
         self.hitbox = (self.x+10,self.y+20,self.width-20,self.height-30)#настраиваем хитбокс
-        pygame.draw.rect(win,(255,0,0), self.hitbox,2)# отображаем хитбокс
+        #pygame.draw.rect(win,(255,0,0), self.hitbox,2)# отображаем хитбокс
 
 
 
@@ -66,7 +66,7 @@ class Vbeams(object):
 
         win.blit(self.img,(self.x,self.y))
 
-        pygame.draw.rect(win,(255,0,0), self.hitbox,2)#отоброжаем хитбокс вертикальных изображений
+        #pygame.draw.rect(win,(255,0,0), self.hitbox,2)#отоброжаем хитбокс вертикальных изображений
 
 
     def collide(self,rect):
