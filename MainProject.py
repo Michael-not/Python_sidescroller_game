@@ -83,7 +83,7 @@ class Hbeams(Vbeams):
     def draw(self,win):
         self.hitbox = (self.x+25,self.y+30,self.width-50,self.height-70) #настраиваем хитбокс для горизонтальных лучей
         win.blit(self.img,(self.x,self.y))
-        pygame.draw.rect(win,(255,0,0),self.hitbox,2)#отображаем хитбокс
+        #pygame.draw.rect(win,(255,0,0),self.hitbox,2)#отображаем хитбокс
 """
 class beams(Vbeams):
     img = pygame.image.load(os.path.join('photo','left-right2.png'))
